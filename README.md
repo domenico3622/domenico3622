@@ -77,8 +77,9 @@ Here is a glimpse of what I have built:
 <br>
 <div align="center">
   <i>
-    🤖 This is a GitHub Action I configured to run every midnight. 
-    It automatically analyzes my daily contributions and turns them into a dynamic Snake game level! 🐍
+    🤖 <b>How it works:</b> This is a GitHub Action I configured to run every midnight. 
+    It automatically analyzes my daily contributions and turns them into a dynamic Snake game level, 
+    <b>where the snake eats the green squares representing the days I pushed code!</b>
   </i>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake-dark.svg">

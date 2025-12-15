@@ -1,14 +1,11 @@
 <h1 align="center">Hi there, I'm Domenico! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 
 <h3 align="center">
-  Developer | Continuous Learner
-</h3>
-
-<p align="center">
+  Developer | Continuous Learner 
   <a href="https://github.com/domenico3622">
     <img src="https://komarev.com/ghpvc/?username=domenico3622&label=Profile%20Views&color=0e75b6&style=flat" alt="domenico3622" />
   </a>
-</p>
+</h3>
 
 ---
 
@@ -49,7 +46,6 @@ Here is a glimpse of what I have built:
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=domenico3622&show_icons=true&theme=tokyonight&hide_border=true" height="180" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,jupyter%20notebook,shell" height="180" alt="languages graph" />
 </div>
 

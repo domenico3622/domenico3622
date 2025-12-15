@@ -33,7 +33,7 @@ Here is a glimpse of what I have built:
 * 🌐 **Web & Interactive:**
     * **AI Dungeons & Dragons:** An RPG game powered by the **Gemini API** for dynamic storytelling.
     * **CyberCasino & Pizzerias:** Web platforms for gaming and geo-located dining services.
-    * 
+    *  
 ---
 
 ### 🛠️ Languages and Tools

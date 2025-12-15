@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Domenico! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
 
 <h3 align="center">
-  Developer | Tech Enthusiast | Continuous Learner
+  Developer | Continuous Learner
 </h3>
 
 <p align="center">
@@ -31,9 +31,7 @@ Here is a glimpse of what I have built:
 * 🌐 **Web & Interactive:**
     * **AI Dungeons & Dragons:** An RPG game powered by the **Gemini API** for dynamic storytelling.
     * **CyberCasino & Pizzerias:** Web platforms for gaming and geo-located dining services.
-
----
-
+    * 
 ---
 
 ### 🛠️ Languages and Tools

@@ -33,7 +33,7 @@ Here is a glimpse of what I have built:
 * 🌐 **Web & Interactive:**
     * **AI Dungeons & Dragons:** An RPG game powered by the **Gemini API** for dynamic storytelling.
     * **CyberCasino & Pizzerias:** Web platforms for gaming and geo-located dining services.
-    *  
+
 ---
 
 ### 🛠️ Languages and Tools
@@ -76,7 +76,10 @@ Here is a glimpse of what I have built:
 
 <br>
 <div align="center">
-  <h3>🐍 My Contribution Snake</h3>
+  <i>
+    🤖 <b>How it works:</b> This is a GitHub Action I configured to run every midnight. 
+    It automatically analyzes my daily contributions and turns them into a dynamic Snake game level! 🐍
+  </i>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake.svg">

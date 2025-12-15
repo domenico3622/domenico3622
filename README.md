@@ -77,7 +77,7 @@ Here is a glimpse of what I have built:
 <br>
 <div align="center">
   <i>
-    🤖 <b>How it works:</b> This is a GitHub Action I configured to run every midnight. 
+    🤖 This is a GitHub Action I configured to run every midnight. 
     It automatically analyzes my daily contributions and turns them into a dynamic Snake game level! 🐍
   </i>
   <picture>

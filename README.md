@@ -73,3 +73,10 @@ Here is a glimpse of what I have built:
 </p>
 
 ---
+
+<br>
+<div align="center">
+  <img src="https://cdn.dribbble.com/users/1187836/screenshots/6539429/programer.gif" width="600" alt="AI data flow">
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1000&color=3670A0&center=true&vCenter=true&width=400&lines=Simulation+Complete.;Shutting+down+systems..." alt="Typing footer" />
+</div>

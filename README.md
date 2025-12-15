@@ -71,10 +71,5 @@ Here is a glimpse of what I have built:
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
----
 
-<br>
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmZlYjZlZWE2YjFmYjZlZWE2YjFmYjZlZWE2YjFmYjZlZWE2YjFmJmVwPXYxX2ludGVybmFsX2dpZmVfYnlfaWQmY3Q9Zw/LIWd7Y3W27oYJzSj5L/giphy.gif" width="600" alt="coding lifestyle">
-  <p><i>Thanks for visiting! Happy coding.</i> 🚀</p>
-</div>
+---

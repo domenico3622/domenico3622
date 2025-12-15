@@ -7,6 +7,12 @@
   </a>
 </h3>
 
+<h4 align="center">
+  <a href="https://github.com/domenico3622">
+    <img src="https://komarev.com/ghpvc/?username=domenico3622&label=Profile%20Views&color=0e75b6&style=flat" alt="domenico3622" />
+  </a>
+</h4>
+
 ---
 
 ### ⚡ About Me

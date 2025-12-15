@@ -14,13 +14,25 @@
 
 ### ⚡ About Me
 
-I'm a passionate developer based in Italy, always looking for new challenges and technologies to explore. I love building efficient software and working on complex projects like **3D simulations** and **computational physics**.
+I am a developer passionate about **Artificial Intelligence**, **High-Performance Computing**, and **Algorithmic efficiency**. I love turning complex problems into working software, from multi-agent systems to physics simulations.
 
-- 🔭 I’m currently working on **Particle In Cell 3D simulations**.
-- 🌱 I’m currently learning **Advanced Algorithms & Data Structures**.
-- 👯 I’m looking to collaborate on **Open Source projects**.
-- 💬 Ask me about **Python, C++, and Physics simulations**.
-- ⚡ Fun fact: **I turn coffee into code.** ☕
+Here is a glimpse of what I have built:
+
+* 🤖 **AI & Computer Vision:**
+    * **Medical Report Gen:** X-ray pathology prediction and report generation using **ResNet/Transformers**.
+    * **Risk Analyzer:** RAG-based investment risk assessment tool utilizing search APIs.
+    * **CrewAI-Boxe:** A multi-agent system for professional boxer matchmaking based on stats and weight classes.
+    * **Great Escape:** Symbolic algorithm designed to solve game logic.
+
+* 🚀 **HPC & Algorithms:**
+    * **Particle In Cell 3D:** CUDA parallelization for high-performance plasma physics simulations.
+    * **Game Theory:** Graph algorithms focused on finding Minimal Vertex Covers.
+
+* 🌐 **Web & Interactive:**
+    * **AI Dungeons & Dragons:** An RPG game powered by the **Gemini API** for dynamic storytelling.
+    * **CyberCasino & Pizzerias:** Web platforms for gaming and geo-located dining services.
+
+---
 
 ---
 

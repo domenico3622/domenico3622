@@ -76,7 +76,10 @@ Here is a glimpse of what I have built:
 
 <br>
 <div align="center">
-  <img src="https://cdn.dribbble.com/users/1187836/screenshots/6539429/programer.gif" width="600" alt="AI data flow">
-  <br>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1000&color=3670A0&center=true&vCenter=true&width=400&lines=Simulation+Complete.;Shutting+down+systems..." alt="Typing footer" />
+  <h3>🐍 My Contribution Snake</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>

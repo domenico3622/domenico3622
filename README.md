@@ -1,81 +1,85 @@
-<h1 align="center">Hi there, I'm Domenico! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
-
-<h3 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3670A0&center=true&vCenter=true&width=500&lines=Software+Developer;AI+Engineer;Data+Analyst;Manga+Reader+%26+Anime+Lover;Always+Learning..." alt="Typing SVG" />
-  </a>
-</h3>
-
-<h4 align="center">
-  <a href="https://github.com/domenico3622">
-    <img src="https://komarev.com/ghpvc/?username=domenico3622&label=Profile%20Views&color=0e75b6&style=flat" alt="domenico3622" />
-  </a>
-</h4>
-
----
-
-### ⚡ About Me
-
-I am a developer passionate about **Artificial Intelligence**, **High-Performance Computing**, and **Algorithmic efficiency**. I love turning complex problems into working software, from multi-agent systems to physics simulations.
-
-Here is a glimpse of what I have built:
-
-* 🤖 **AI & Computer Vision:**
-    * **Medical Report Gen:** X-ray pathology prediction and report generation using **ResNet/Transformers**.
-    * **Risk Analyzer:** RAG-based investment risk assessment tool utilizing search APIs.
-    * **CrewAI-Boxe:** A multi-agent system for professional boxer matchmaking based on stats and weight classes.
-    * **Great Escape:** Symbolic algorithm designed to solve game logic.
-
-* 🚀 **HPC & Algorithms:**
-    * **Particle In Cell 3D:** CUDA parallelization for high-performance plasma physics simulations.
-    * **Game Theory:** Graph algorithms focused on finding Minimal Vertex Covers.
-
-* 🌐 **Web & Interactive:**
-    * **AI Dungeons & Dragons:** An RPG game powered by the **Gemini API** for dynamic storytelling.
-    * **CyberCasino & Pizzerias:** Web platforms for gaming and geo-located dining services.
-
----
-
-### 🛠️ Languages and Tools
-
-<p align="left">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  </p>
-
----
-
-### 📊 GitHub Stats
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,jupyter%20notebook,shell" height="180" alt="languages graph" />
+  <img src="https://media.tenor.com/XoX8oecqQ8MAAAAC/jujutsu-kaisen-domain-expansion.gif" width="100%" style="border-radius: 10px; opacity: 0.9;" alt="Domain Expansion Header">
+  
+  <h1 style="font-size: 50px; text-transform: uppercase; letter-spacing: 5px;">⚠️ DOMAIN EXPANSION: <br> <span style="color: #a371f7;">INFINITE CODE</span> ⚠️</h1>
+  
+  <h3><i>"Non temere il bug che vedi, ma quello che non hai ancora scritto."</i></h3>
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&pause=1000&color=F75C7E&background=00000000&center=true&vCenter=true&width=600&lines=Sorcerer+Grade%3A+Special;Cursed+Technique%3A+AI+Engineering;Weapon%3A+Python+%2F+C%2B%2B;Exorcising+Bugs+since+2020..." alt="Typing SVG" />
+  </a>
 </div>
+<br>
 
----
-
-### 📫 Connect with me
-
-<p align="left">
+<p align="center">
   <a href="https://github.com/domenico3622">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-Corrupted-black?style=for-the-badge&logo=github&logoColor=red" />
   </a>
   <a href="https://linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+   <a href="https://github.com/domenico3622">
+    <img src="https://komarev.com/ghpvc/?username=domenico3622&label=INTRUDERS&color=red&style=for-the-badge" alt="domenico3622" />
   </a>
 </p>
 
 ---
 
+### 🔮 The Sorcerer's Profile (About Me)
+
+I am a Special Grade Developer focused on **Artificial Intelligence**, **High-Performance Computing**, and **Algorithmic Efficiency**. My domain expansion allows me to visualize complex problems and dismantle them into working software.
+
+Here is the record of the "Curses" (Projects) I have exorcised:
+
+* **👹 Cursed Technique: AI & Vision**
+    * **Medical Report Gen:** X-ray pathology prediction using **ResNet/Transformers**. *(Healing Technique)*
+    * **Risk Analyzer:** RAG-based investment risk assessment. *(Future Sight)*
+    * **CrewAI-Boxe:** Multi-agent system for professional boxer matchmaking.
+    * **Great Escape:** Symbolic algorithm designed to solve game logic.
+
+* **⚡ Black Flash: HPC & Algorithms**
+    * **Particle In Cell 3D:** CUDA parallelization for plasma physics simulations. *(Maximum Output)*
+    * **Game Theory:** Graph algorithms focused on Minimal Vertex Covers.
+
+* **🌀 Barrier Techniques: Web & Interactive**
+    * **AI Dungeons & Dragons:** RPG powered by **Gemini API** for dynamic storytelling.
+    * **CyberCasino & Pizzerias:** Web platforms for gaming and dining.
+
+---
+
+### ⚔️ Cursed Tools (Languages & Stack)
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,git,vscode,linux,pytorch,tensorflow,docker,bash&theme=dark" />
+</div>
+
+---
+
+### 🩸 Cursed Energy Levels (GitHub Stats)
+
+<div align="center">
+  <table style="border: none;">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=domenico3622&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F75C7E&icon_color=F75C7E" height="180" alt="domenico's stats" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F75C7E&hide=html,css,jupyter%20notebook,shell" height="180" alt="languages graph" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 <br>
 <div align="center">
+  <h3>☠️ The Shikigami Summoning ☠️</h3>
   <i>
-    🤖 This is a GitHub Action I configured to run every midnight. 
-    It automatically analyzes my daily contributions and turns them into a dynamic Snake game level, 
-    <b>where the snake eats the green squares representing the days I pushed code!</b>
+    Ogni mezzanotte, questo Shikigami divora i miei commit. <br>
+    Più commit faccio, più lui si nutre.
   </i>
+  
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake.svg">

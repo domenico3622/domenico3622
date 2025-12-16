@@ -54,8 +54,10 @@ Here is a glimpse of what I have built:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,jupyter%20notebook,shell" height="180" alt="languages graph" />
 </div>
 
-
-<img src="https://github-profile-trophy.vercel.app/?username=domenico3622&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="trophies" />
+<div align="center">
+  <h3>📉 My Coding Activity</h3>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=domenico3622&bg_color=1a1b26&color=7aa2f7&line=7aa2f7&point=c0caf5&area=true&hide_border=true" alt="activity-graph" />
+</div>
 
 
 ---

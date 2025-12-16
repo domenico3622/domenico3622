@@ -55,8 +55,22 @@ Here is a glimpse of what I have built:
 </div>
 
 <div align="center">
-  <h3>📉 My Coding Activity</h3>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=domenico3622&bg_color=1a1b26&color=7aa2f7&line=7aa2f7&point=c0caf5&area=true&hide_border=true" alt="activity-graph" />
+  <h2>🔥 My Power Level 🔥</h2>
+  
+  <table>
+    <tr>
+      <td valign="center">
+        <img src="https://media1.tenor.com/m/t1n6qH4Z52gAAAAC/goku-super-saiyan.gif" width="200" height="auto" alt="Goku Powering Up">
+      </td>
+      <td valign="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=domenico3622&show_icons=true&theme=tokyonight&hide_border=true&hide=issues,contribs&count_private=true&include_all_commits=true" alt="Domenico's Stats" />
+      </td>
+    </tr>
+  </table>
+
+  <p><b>Next Transformation Progress:</b></p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,jupyter%20notebook" height="130" alt="Languages as Energy" />
+
 </div>
 
 

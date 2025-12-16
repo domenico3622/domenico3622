@@ -56,7 +56,7 @@ Here is a glimpse of what I have built:
 
 <div align="center">
   <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=domenico3622&theme=tokyonight&hide_border=true" alt="streak stats" />
+  <img src="https://streak-stats.demolab.com?user=domenico3622&theme=tokyonight&hide_border=true" alt="streak stats" />
 </div>
 
 ---

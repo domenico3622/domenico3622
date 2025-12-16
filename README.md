@@ -55,21 +55,18 @@ Here is a glimpse of what I have built:
 </div>
 
 <div align="center">
-  <h2>🔥 My Saiyan Power Level 🔥</h2>
+  <img src="https://media.giphy.com/media/LHcM8FlszXZnO/giphy.gif" width="100%" style="border-radius: 10px;">
   
-  <table>
-    <tr>
-      <td valign="center">
-        <img src="https://media1.tenor.com/m/t1n6qH4Z52gAAAAC/goku-super-saiyan.gif" width="180" height="auto" alt="Goku Powering Up">
-      </td>
-      <td valign="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=domenico3622&theme=tokyonight&hide_border=true&fire=FF4500" alt="Streak Stats" />
-      </td>
-    </tr>
-  </table>
+  <p align="center">
+    <br>
+    <i>"Code flows best when the music is low and the coffee is hot."</i> ☕
+  </p>
 
-  <p><b>Energy Signature (Ki Type):</b></p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,jupyter%20notebook&exclude_repo=github-readme-stats" height="130" alt="Ki Type" />
+  <p>
+    <img src="https://img.shields.io/badge/Music-Lofi_Hip_Hop-7289da?style=for-the-badge&logo=spotify&logoColor=white">
+    <img src="https://img.shields.io/badge/OS-Windows_%2F_Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+    <img src="https://img.shields.io/badge/Editor-VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+  </p>
 </div>
 
 

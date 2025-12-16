@@ -55,8 +55,7 @@ Here is a glimpse of what I have built:
 </div>
 
 <div align="center">
-  <br>
-  <img src="https://streak-stats.demolab.com?user=domenico3622&theme=tokyonight&hide_border=true" alt="streak stats" />
+  <img src="https://github-profile-trophy.vercel.app/?username=domenico3622&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="trophies" />
 </div>
 
 ---

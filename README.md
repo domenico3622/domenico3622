@@ -55,22 +55,21 @@ Here is a glimpse of what I have built:
 </div>
 
 <div align="center">
-  <h2>🔥 My Power Level 🔥</h2>
+  <h2>🔥 My Saiyan Power Level 🔥</h2>
   
   <table>
     <tr>
       <td valign="center">
-        <img src="https://media1.tenor.com/m/t1n6qH4Z52gAAAAC/goku-super-saiyan.gif" width="200" height="auto" alt="Goku Powering Up">
+        <img src="https://media1.tenor.com/m/t1n6qH4Z52gAAAAC/goku-super-saiyan.gif" width="180" height="auto" alt="Goku Powering Up">
       </td>
       <td valign="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=domenico3622&show_icons=true&theme=tokyonight&hide_border=true&hide=issues,contribs&count_private=true&include_all_commits=true" alt="Domenico's Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=domenico3622&theme=tokyonight&hide_border=true&fire=FF4500" alt="Streak Stats" />
       </td>
     </tr>
   </table>
 
-  <p><b>Next Transformation Progress:</b></p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,jupyter%20notebook" height="130" alt="Languages as Energy" />
-
+  <p><b>Energy Signature (Ki Type):</b></p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,jupyter%20notebook&exclude_repo=github-readme-stats" height="130" alt="Ki Type" />
 </div>
 
 

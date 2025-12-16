@@ -82,3 +82,22 @@ Here is a glimpse of what I have built:
     <img alt="github contribution grid snake animation" src="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
+
+---
+
+### 🏀 THE TENSAI CHALLENGE
+Help **Sakuragi** complete the Slam Dunk! He needs energy to jump.
+<br>
+
+<div align="center">
+  <img src="https://github.com/domenico3622/domenico3622/blob/main/.github/assets/current.png?raw=true" width="600" alt="Slam Dunk Status">
+  <br>
+  
+  <h3>Current Status: <span style="color: red;">DRIBBING TOWARDS BASKET...</span></h3>
+  
+  <a href="https://github.com/domenico3622/domenico3622/issues/new?title=pass-ball&body=Just+passing+the+ball+to+the+Tensai!">
+    <img src="https://img.shields.io/badge/🏀_PASS_THE_BALL-CLICK_HERE-red?style=for-the-badge&height=40">
+  </a>
+</div>
+
+---

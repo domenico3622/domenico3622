@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="400" viewBox="0 0 800 400">
   <!-- Background -->
-  <image href="" width="800" height="400" x="0" y="0" preserveAspectRatio="none" />
+  <image href="" xlink:href="" width="800" height="400" x="0" y="0" preserveAspectRatio="none" />
 
   <!-- Player Group (Movement) -->
   <!-- We move a nested SVG viewport -->
@@ -16,7 +16,7 @@
               dur="5s" repeatCount="indefinite" />
 
      <!-- Sprite Sheet Image -->
-     <image href="" width="512" height="256">
+     <image href="" xlink:href="" width="512" height="256">
         <!-- Frame X Animation (Column) -->
         <!-- 
            0-40%: Run Cycle (0, -128, -256, -384...)

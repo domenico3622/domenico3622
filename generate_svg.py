@@ -52,9 +52,9 @@ bg_b64 = get_base64_image(bg_path, False)
 # Jump Y = 72 (200-128)
 # Dunk Y = 92 (220-128)
 
-svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="400" viewBox="0 0 800 400">
   <!-- Background -->
-  <image href="{bg_b64}" width="800" height="400" x="0" y="0" preserveAspectRatio="none" />
+  <image href="{bg_b64}" xlink:href="{bg_b64}" width="800" height="400" x="0" y="0" preserveAspectRatio="none" />
 
   <!-- Player Group (Movement) -->
   <!-- We move a nested SVG viewport -->
@@ -70,7 +70,7 @@ svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="800" height="40
               dur="5s" repeatCount="indefinite" />
 
      <!-- Sprite Sheet Image -->
-     <image href="{sprite_b64}" width="512" height="256">
+     <image href="{sprite_b64}" xlink:href="{sprite_b64}" width="512" height="256">
         <!-- Frame X Animation (Column) -->
         <!-- 
            0-40%: Run Cycle (0, -128, -256, -384...)
@@ -125,5 +125,4 @@ svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="800" height="40
 with open(output_svg_path, "w", encoding='utf-8') as f:
     f.write(svg_content)
 
-print(f"SVG regenerated (SMIL) at {output_svg_path}")
-
+print(f"SVG regenerated (SMIL+xlink) at {output_svg_path}")

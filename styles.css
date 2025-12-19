@@ -1,0 +1,229 @@
+/* Basic Clean Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-layout {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* --- Snake Section --- */
+#snake-section {
+    height: 300px;
+    background: #000;
+    border: 4px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal-screen {
+    color: #33ff00;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-shadow: 0 0 5px #33ff00;
+}
+
+/* --- Dunk Section --- */
+#dunk-section {
+    height: 400px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    border: 4px solid #ccc;
+}
+
+.court {
+    width: 100%;
+    height: 100%;
+    background: #e8cd9a;
+    /* Wood floor color */
+    background-image:
+        linear-gradient(90deg, transparent 49%, rgba(0, 0, 0, 0.1) 50%, transparent 51%),
+        linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 100px 100%, 100% 40px;
+    /* Floorboards */
+    position: relative;
+    perspective: 1000px;
+}
+
+/* Hoop Styles */
+.hoop-stand {
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
+    /* High up */
+    width: 20px;
+    height: 250px;
+    background: #555;
+    z-index: 1;
+}
+
+.backboard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 90px;
+    background: white;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.backboard::after {
+    content: '';
+    width: 50px;
+    height: 40px;
+    border: 3px solid red;
+    position: absolute;
+    bottom: 10px;
+}
+
+.rim {
+    width: 60px;
+    height: 5px;
+    background: orange;
+    position: absolute;
+    bottom: 10px;
+    transform: rotateX(60deg);
+    /* 3D effect */
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.net {
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    /* Relative to rim? No, backboard/rim anchor */
+    top: 5px;
+    /* Below rim */
+    left: 0;
+    background:
+        repeating-linear-gradient(45deg, white 0, white 1px, transparent 1px, transparent 10px),
+        repeating-linear-gradient(-45deg, white 0, white 1px, transparent 1px, transparent 10px);
+    opacity: 0.8;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+}
+
+
+/* --- Player Sprite --- */
+.sakuragi {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    bottom: 40px;
+    /* Floor level */
+    left: -150px;
+    /* Start off screen */
+
+    background-image: url('spritesheet.png');
+    background-size: 400% 200%;
+    /* 4 columns, 2 rows */
+    background-repeat: no-repeat;
+
+    image-rendering: pixelated;
+    /* Retro look */
+    z-index: 10;
+}
+
+/* Animations defined via classes controlled by JS */
+
+/* Running State */
+.sakuragi.run {
+    /* Loop first 3 frames: 0%, 33%, 66% */
+    /* We can simply toggle background-position-x in animation */
+    animation: run-cycle 0.6s steps(1) infinite;
+}
+
+@keyframes run-cycle {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    33% {
+        background-position: 33.33% 0%;
+    }
+
+    66% {
+        background-position: 66.66% 0%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* Crouch/Prep State */
+.sakuragi.prep {
+    background-position: 100% 0%;
+    /* Frame 4 (top right) */
+}
+
+/* Jump Up State */
+.sakuragi.jump-up {
+    background-position: 0% 100%;
+    /* Frame 5 (bottom left) */
+}
+
+/* Mid Air/Ball High State */
+.sakuragi.mid-air {
+    background-position: 33.33% 100%;
+    /* Frame 6 */
+}
+
+/* Dunk State */
+.sakuragi.dunk {
+    background-position: 66.66% 100%;
+    /* Frame 7 */
+}
+
+/* Land State */
+.sakuragi.land {
+    background-position: 100% 100%;
+    /* Frame 8 */
+}
+
+
+.controls {
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #ff3333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #cc0000;
+}

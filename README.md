@@ -82,23 +82,3 @@ Here is a glimpse of what I have built:
     <img alt="github contribution grid snake animation" src="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
-
----
-
-### 🏀 THE TENSAI CHALLENGE (WEB APP)
-Help **Sakuragi** complete the Slam Dunk in the new Premium Web App!
-<br>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/domenico3622/domenico3622/main/slamdunk/assets/step3.png" width="300" alt="Slam Dunk Preview">
-  <br>
-  
-  <h3>🚀 EXPERIENCE THE NEW GAME!</h3>
-  
-  <a href="https://domenico3622.github.io/domenico3622/slamdunk/">
-    <img src="https://img.shields.io/badge/PLAY_NOW-SLAM_DUNK_CHALLENGE-red?style=for-the-badge&logo=google-play&logoColor=white&height=50">
-  </a>
-  
-  <p><i>(Ensure GitHub Pages is enabled in Settings -> Pages -> Source: main branch)</i></p>
-</div>
-
----

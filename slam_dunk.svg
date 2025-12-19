@@ -1,73 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;overflow:hidden;position:relative;">
-      
-      <!-- CSS Styles -->
-      <style>
-        .container {
-            width: 100%; height: 100%;
-            position: absolute; top:0; left:0;
-            background-image: url('');
-            background-size: cover;
-            background-position: center;
-        }
-        
-        .sakuragi {
-            width: 128px; height: 128px;
-            position: absolute; bottom: 40px; left: -150px;
-            background-image: url('');
-            background-size: 400% 200%; /* 4 columns, 2 rows */
-            image-rendering: pixelated;
-            z-index: 10;
-            
-            /* Master Animations */
-            animation: sequence-move 5s linear infinite, sequence-sprites 5s step-end infinite;
-        }
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- Background -->
+  <image href="" width="800" height="400" x="0" y="0" preserveAspectRatio="none" />
 
-        @keyframes sequence-move {
-            0% { left: -150px; bottom: 40px; }
-            40% { left: 450px; bottom: 40px; } /* Run to paint */
-            42% { left: 450px; bottom: 40px; } /* Prep */
-            50% { left: 580px; bottom: 200px; } /* Jump peak */
-            55% { left: 580px; bottom: 180px; } /* Dunk */
-            65% { left: 580px; bottom: 40px; } /* Land */
-            100% { left: 580px; bottom: 40px; } /* Stay */
-        }
+  <!-- Player Group (Movement) -->
+  <!-- We move a nested SVG viewport -->
+  <svg width="128" height="128" viewBox="0 0 128 128" overflow="hidden">
+     <!-- Position Animation of Container -->
+     <animate attributeName="x" 
+              values="-150; 450; 450; 580; 580; 580; 580" 
+              keyTimes="0; 0.4; 0.42; 0.5; 0.55; 0.65; 1" 
+              dur="5s" repeatCount="indefinite" />
+     <animate attributeName="y" 
+              values="232; 232; 232; 72; 92; 232; 232" 
+              keyTimes="0; 0.4; 0.42; 0.5; 0.55; 0.65; 1" 
+              dur="5s" repeatCount="indefinite" />
 
-        @keyframes sequence-sprites {
-            /* Running Dribble (Row 1: 0-3) */
-            0% { background-position: 0% 0%; }
-            5% { background-position: 33.33% 0%; }
-            10% { background-position: 66.66% 0%; }
-            15% { background-position: 100% 0%; } /* 4th run frame if exists, else cycle */
-            20% { background-position: 0% 0%; }
-            25% { background-position: 33.33% 0%; }
-            30% { background-position: 66.66% 0%; }
-            35% { background-position: 100% 0%; }
-            
-            /* Prep (Last run frame or Frame 5) - Let's use Frame 5 (Row 2 Col 1) */
-            40% { background-position: 0% 100%; }
-            
-            /* Jump Up (Frame 6) */
-            43% { background-position: 33.33% 100%; }
-            
-            /* Dunk (Frame 7) */
-            50% { background-position: 66.66% 100%; }
-            
-            /* Land (Frame 8) */
-            60% { background-position: 100% 100%; }
-            
-            /* Reset */
-            100% { background-position: 100% 100%; }
-        }
+     <!-- Sprite Sheet Image -->
+     <image href="" width="512" height="256">
+        <!-- Frame X Animation (Column) -->
+        <!-- 
+           0-40%: Run Cycle (0, -128, -256, -384...)
+           Let's do 8 steps logic for run (5% each): 0, 1, 2, 3, 0, 1, 2, 3
+           40-42%: Prep (Row 2 Col 1 -> X=0)
+           42-50%: Jump (Row 2 Col 2 -> X=-128)
+           50-55%: Dunk (Row 2 Col 3 -> X=-256)
+           55-65%: Land (Row 2 Col 4 -> X=-384)
+           65-100%: Land/Stay (X=-384)
+        -->
+        <animate attributeName="x" 
+                 calcMode="discrete" 
+                 values="0; -128; -256; -384; 0; -128; -256; -384; 0; -128; -256; -384; 0; -128; -256; -384; 0; -128; -256; -384"
+                 keyTimes="0; 0.4; 0.42; 0.5; 0.55; 0.65; 1"
+                 dur="5s" repeatCount="indefinite"
+                 />
+                 <!-- Correction: The 'values' list above must match 'keyTimes' count or use proportional.
+                      With discrete, we need precise timing.
+                      Let's simplify:
+                      0.0 - 0.4 (Run): 8 frames. (0, -128, -256, -384 repeated).
+                      0.4: Prep (0)
+                      0.42: Jump (-128)
+                      0.5: Dunk (-256)
+                      0.55: Land (-384)
+                      0.65: Stay (-384)
+                      
+                      KeyTimes length must match Values length.
+                      Run Frames: 0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35
+                      Action Frames: 0.40, 0.42, 0.50, 0.55, 0.65
+                      Total 13 keyframes.
+                  -->
+        <animate attributeName="x" 
+                 calcMode="discrete" 
+                 values="0; -128; -256; -384; 0; -128; -256; -384; 0; -128; -256; -384; -384"
+                 keyTimes="0; 0.05; 0.10; 0.15; 0.20; 0.25; 0.30; 0.35; 0.40; 0.42; 0.50; 0.55; 1.0"
+                 dur="5s" repeatCount="indefinite" />
 
-      </style>
-
-      <div class="container">
-          <!-- Character -->
-          <div class="sakuragi"></div>
-      </div>
-
-    </div>
-  </foreignObject>
+        <!-- Frame Y Animation (Row) -->
+        <!-- 
+           0-0.4: Row 1 (Y=0)
+           0.4-1.0: Row 2 (Y=-128)
+        -->
+        <animate attributeName="y" 
+                 calcMode="discrete" 
+                 values="0; -128"
+                 keyTimes="0; 0.4"
+                 dur="5s" repeatCount="indefinite" />
+     </image>
+  </svg>
 </svg>

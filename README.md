@@ -85,18 +85,20 @@ Here is a glimpse of what I have built:
 
 ---
 
-### 🏀 THE TENSAI CHALLENGE
-Help **Sakuragi** complete the Slam Dunk! He needs energy to jump.
+### 🏀 THE TENSAI CHALLENGE (WEB APP)
+Help **Sakuragi** complete the Slam Dunk in the new Premium Web App!
 <br>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/domenico3622/domenico3622/main/.github/assets/current.png" width="600" alt="Slam Dunk Status">
+  <img src="https://raw.githubusercontent.com/domenico3622/domenico3622/main/slamdunk/assets/step3.png" width="300" alt="Slam Dunk Preview">
   <br>
   
-  <h3>Current Status: <span style="color: red;">WAITING FOR PASS...</span></h3>
+  <h3>🚀 EXPERIENCE THE NEW GAME!</h3>
   
-  <a href="https://github.com/domenico3622/domenico3622/issues/new?title=pass-ball&body=Just+passing+the+ball+to+the+Tensai!">
-    <img src="https://img.shields.io/badge/🏀_PASS_THE_BALL-CLICK_HERE-red?style=for-the-badge&height=40">
+  <a href="https://domenico3622.github.io/domenico3622/slamdunk/">
+    <img src="https://img.shields.io/badge/PLAY_NOW-SLAM_DUNK_CHALLENGE-red?style=for-the-badge&logo=google-play&logoColor=white&height=50">
   </a>
+  
+  <p><i>(Ensure GitHub Pages is enabled in Settings -> Pages -> Source: main branch)</i></p>
 </div>
 
 ---

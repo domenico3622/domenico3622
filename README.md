@@ -2,7 +2,7 @@
 
 <h3 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3670A0&center=true&vCenter=true&width=500&lines=Software+Developer;AI+Engineer;Data+Analyst;Manga+Reader+%26+Anime+Lover;Always+Learning..." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=3670A0&center=true&vCenter=true&width=500&lines=Software+Developer;AI+Engineer;Data+Analyst" alt="Typing SVG" />
   </a>
 </h3>
 
@@ -82,14 +82,4 @@ Here is a glimpse of what I have built:
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://github.com/domenico3622/domenico3622/raw/output/github-contribution-grid-snake.svg">
   </picture>
-
-  <br><br>
-
-  <i>
-    ...and down here, <b>Basketman Sakuragi</b> is celebrating the commits with a Slam Dunk! 🏀
-  </i>
-  <br>
-  <div align="center">
-      <img src="slam_dunk.svg" width="100%">
-  </div>
 </div>

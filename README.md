@@ -21,6 +21,7 @@ I am a developer passionate about **Artificial Intelligence**, **High-Performanc
 Here is a glimpse of what I have built:
 
 * 🤖 **AI & Computer Vision:**
+    * **PPI Thesis Project**: End-to-end cross-species protein-protein interaction prediction pipeline using **ESM-2** embeddings and a custom bidirectional cross-attention model, with ETL + multi-organism evaluation against D-SCRIPT baseline.   
     * **Medical Report Gen:** X-ray pathology prediction and report generation using **ResNet/Transformers**.
     * **Risk Analyzer:** RAG-based investment risk assessment tool utilizing search APIs.
     * **CrewAI-Boxe:** A multi-agent system for professional boxer matchmaking based on stats and weight classes.

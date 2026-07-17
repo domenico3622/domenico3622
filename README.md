@@ -49,14 +49,6 @@ Here is a glimpse of what I have built:
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=domenico3622&layout=compact&theme=tokyonight&hide_border=true&hide=html,css,jupyter%20notebook,shell" height="180" alt="languages graph" />
-</div>
-
----
-
 ### 📫 Connect with me
 
 <p align="left">
